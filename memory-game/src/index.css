@@ -1,0 +1,47 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  grid-gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-back {
+  width: 100%;
+  height: 100%;
+  background: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
